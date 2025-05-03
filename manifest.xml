@@ -12,7 +12,7 @@
   <Description DefaultValue="Imports shapefiles and displays them on a map in Excel.">
     <Override LocaleName="pt-BR" Value="Importa shapefiles e mostra em mapa no Excel." />
   </Description>
-  <IconUrl DefaultValue="https://127.0.0.1:5500/assets/dataonmapicon2.png" />
+  <IconUrl DefaultValue="https://127.0.0.1:5500/dataonmapicon2.png" />
   <Hosts>
     <Host Name="Workbook" />
   </Hosts>
