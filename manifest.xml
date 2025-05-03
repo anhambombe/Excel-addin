@@ -12,12 +12,12 @@
   <Description DefaultValue="Imports shapefiles and displays them on a map in Excel.">
     <Override LocaleName="pt-BR" Value="Importa shapefiles e mostra em mapa no Excel." />
   </Description>
-  <IconUrl DefaultValue="https://127.0.0.1:5500/dataonmapicon2.png" />
+  <IconUrl DefaultValue="https://anhambombe.github.io/Excel-addin/dataonmapicon2.png" />
   <Hosts>
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://127.0.0.1:5500/taskpane.html" />
+    <SourceLocation DefaultValue="https://anhambombe.github.io/Excel-addin/taskpane.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
