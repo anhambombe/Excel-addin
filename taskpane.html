@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Shapefile Viewer</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="https://unpkg.com/shapefile@0.6.6/dist/shapefile.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    #map { height: 300px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>Importar Shapefile</h2>
+  <input type="file" id="shapefileInput" multiple />
+  <div id="map"></div>
+  <script src="taskpane.js"></script>
+</body>
+</html>
